@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adventure</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li  class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a  href="#"></a>contact</li>
+        </ul>
+        <img src="menu-btn.png" alt="./img/menu-btn.png" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore the colorful world</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">learn more</a>
+        </div>
+    </header>
+    <section>
+        <div class="title">
+            <h1>Upcoming Event</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col"> 
+                <img src="img1.png" alt="">
+                <h4>Everst Camp Trek</h4>
+                <p>enjoy the hicking journy up to everst mountin top</p>
+                <a href="#" class="ctn">learn more</a>
+        
+            </div>
+            <div class="col"> 
+                <img src="img2.png" alt="">
+                <h4>walking holidays</h4>
+                <p>enjoy walking around and see the beutiful landscap </p>
+                <a href="#" class="ctn">learn more</a>
+        
+            </div></div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+        <h1>Explore the world</h1>
+        <div class="line"></div>
+        <p>enojoying your life experience with our special tours ,event,gathering and alot of intersting adventure you can choose from</p>
+    <a href="#" class="ctn">learn more</a>
+</div>
+    </section>
+    <section class="tour">
+        <div class="row">
+            <div class="col content-col">
+                <h1> Upcoming tour & Destination</h1>
+                <div class="line"></div>
+                <p>come along with us to our new destination we have gather  a fun and enjoyable places for you to fisit and enjoy the company of your beloved while doing and amzing unvergatble memmories</p>
+                <a href="#" class="ctn">learn more</a>
+            </div>
+            <div class="col">
+                <div class="image-gallery">
+                    <img src="img3.png" alt="">
+                    <img src="img4.png" alt="">
+                    
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="image-gallery2">
+                        <img src="img5.png " alt="">
+                        <img src="img6.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>123 avenu sesme street round the corner | phone:011301697| Email:kkholod01@gmail.com</p>
+        <p>copyright @2023 adventure</p>
+    </section>
+    <script>
+        const menubtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+        
+        menubtn.addEventListener('click',()=>{ 
+            navlinks.classList.toggle('mobile-menu')
+        })
+
+   </script>
+    
+</body>
+</html> 
